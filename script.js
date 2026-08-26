@@ -1,4 +1,6 @@
 const questions = [
+
+    // QUESTION 1
     {
         question: `I tell Dr Amrita:
 
@@ -15,11 +17,14 @@ Which muscle causes pupillary dilation?`,
             "D. Orbicularis hopelessromanticus"
         ],
 
-        correct: 1,
+        correct: [1],
 
-        correctMessage: "✓ Correct. Dilator pupillae. Sympathetic stimulation wins again."
+        correctMessage:
+            "✓ Correct! Dilator pupillae. Sympathetic stimulation wins again."
     },
 
+
+    // QUESTION 2
     {
         question: `I tell Dr Amrita:
 
@@ -36,11 +41,14 @@ Which disturbance is most likely?`,
             "D. Acute girlfriend-induced pneumonitis"
         ],
 
-        correct: 1,
+        correct: [1],
 
-        correctMessage: "✓ Correct. Hyperventilation decreases PaCO₂. Romance has once again become an ABG question."
+        correctMessage:
+            "✓ Correct! Hyperventilation decreases PaCO₂. Romance has once again become an ABG question."
     },
 
+
+    // QUESTION 3
     {
         question: `A medical student says:
 
@@ -55,11 +63,14 @@ Propranolol acts primarily as:`,
             "D. Emotional-support molecule"
         ],
 
-        correct: 1,
+        correct: [1],
 
-        correctMessage: "✓ Correct. Propranolol blocks both β1 and β2 receptors."
+        correctMessage:
+            "✓ Correct! Propranolol blocks both β1 and β2 receptors."
     },
 
+
+    // QUESTION 4
     {
         question: `Rohan confesses to Amrita:
 
@@ -74,11 +85,14 @@ Adult hemoglobin A consists of:`,
             "D. Romeo₂Juliet₂"
         ],
 
-        correct: 0,
+        correct: [0],
 
-        correctMessage: "✓ Correct. Adult HbA is α₂β₂. Four chains, considerably fewer emotional complications."
+        correctMessage:
+            "✓ Correct! Adult HbA is α₂β₂. Four chains, considerably fewer emotional complications."
     },
 
+
+    // QUESTION 5
     {
         question: `Rohan remembers the Taylor Swift song Amrita sang for him and tells her:
 
@@ -93,11 +107,14 @@ Viruses require host cells primarily because they:`,
             "D. Are emotionally codependent"
         ],
 
-        correct: 0,
+        correct: [0],
 
-        correctMessage: "✓ Correct. Viruses depend on host-cell machinery for replication."
+        correctMessage:
+            "✓ Correct! Viruses depend on host-cell machinery for replication."
     },
 
+
+    // QUESTION 6
     {
         question: `Rohan develops periumbilical pain that later migrates to the right lower quadrant while on a first date with Amrita.
 
@@ -112,11 +129,14 @@ Which diagnosis is most likely?`,
             "D. Terminal romantic optimism"
         ],
 
-        correct: 0,
+        correct: [0],
 
-        correctMessage: "✓ Correct. Migratory periumbilical-to-RLQ pain is classic acute appendicitis."
+        correctMessage:
+            "✓ Correct! Migratory periumbilical-to-RLQ pain is classic acute appendicitis."
     },
 
+
+    // QUESTION 7
     {
         question: `1990s. Dr Satpal tells Dr Lovely:
 
@@ -131,11 +151,36 @@ After injection into a peripheral vein, contrast first enters which cardiac cham
             "D. The chamber of secrets"
         ],
 
-        correct: 2,
+        correct: [2],
 
-        correctMessage: "✓ Correct. Peripheral venous blood returns first to the right atrium."
+        correctMessage:
+            "✓ Correct! Peripheral venous blood returns first to the right atrium."
     },
 
+
+    // QUESTION 8
+    {
+        question: `Dr Satpal tells Dr Lovely:
+
+“Are you contrast? Because you went straight to my heart.”
+
+During a contrast-enhanced CT following peripheral IV injection, contrast reaches which chamber first?`,
+
+        answers: [
+            "A. Left atrium",
+            "B. Left ventricle",
+            "C. Right atrium",
+            "D. The chamber she has rented in his heart"
+        ],
+
+        correct: [2],
+
+        correctMessage:
+            "✓ Correct! Right atrium. Apparently even romance must obey venous return."
+    },
+
+
+    // QUESTION 9
     {
         question: `Dr PK tells Dr Ananya:
 
@@ -150,11 +195,14 @@ Which bedside assessment is commonly used to help predict difficult intubation?`
             "D. Hot-to-crazy ratio"
         ],
 
-        correct: 0,
+        correct: [0],
 
-        correctMessage: "✓ Correct. Mallampati classification. Difficult airway: assessed. Difficult conversation: prognosis uncertain."
+        correctMessage:
+            "✓ Correct! Mallampati classification. Difficult airway: assessed. Difficult conversation: prognosis uncertain."
     },
 
+
+    // QUESTION 10
     {
         question: `Dr PK tells Dr Ananya:
 
@@ -169,11 +217,14 @@ Propofol primarily enhances activity at which receptor?`,
             "D. Love receptor 5-HT69"
         ],
 
-        correct: 1,
+        correct: [1],
 
-        correctMessage: "✓ Correct. Propofol potentiates GABA-A receptor activity."
+        correctMessage:
+            "✓ Correct! Propofol primarily potentiates GABA-A receptor activity."
     },
 
+
+    // QUESTION 11
     {
         question: `1990s. After a significant period of courtship, Dr Satpal tells Dr Lovely:
 
@@ -192,11 +243,14 @@ Simple fluid on a conventional T2-weighted MRI typically appears:`,
             "D. Emotionally complicated"
         ],
 
-        correct: 1,
+        correct: [1],
 
-        correctMessage: "✓ Correct. Fluid is typically bright on T2-weighted MRI."
+        correctMessage:
+            "✓ Correct! Simple fluid is typically bright on T2-weighted MRI."
     },
 
+
+    // QUESTION 12
     {
         question: `After an argument between Amrita and Rohan:
 
@@ -215,11 +269,14 @@ Takotsubo cardiomyopathy classically demonstrates:`,
             "D. Anatomically fractured myocardium"
         ],
 
-        correct: 0,
+        correct: [0],
 
-        correctMessage: "✓ Correct. Takotsubo cardiomyopathy classically causes apical ballooning."
+        correctMessage:
+            "✓ Correct! Takotsubo cardiomyopathy classically demonstrates apical ballooning."
     },
 
+
+    // QUESTION 13
     {
         question: `Rohan: “You're constantly on my mind.”
 
@@ -227,7 +284,7 @@ Amrita: “Obsessive thoughts?”
 
 Rohan: “ROMANCE.”
 
-Which brain structure plays a major role in formation of new declarative memories?`,
+Which brain structure plays a major role in the formation of new declarative memories?`,
 
         answers: [
             "A. Hippocampus",
@@ -236,17 +293,97 @@ Which brain structure plays a major role in formation of new declarative memorie
             "D. Nucleus girlfriendus"
         ],
 
-        correct: 0,
+        correct: [0],
 
-        correctMessage: "✓ Correct. The hippocampus is critical for formation of new declarative memories."
+        correctMessage:
+            "✓ Correct! The hippocampus plays a major role in the formation of new declarative memories."
+    },
+
+
+    // QUESTION 14
+    {
+        question: `Amrita is auscultating Rohan.
+
+Amrita: “Your resting heart rate is 48.”
+
+Rohan: “Because my heart only races for you.”
+
+Amrita rolls her eyes, but unfortunately smiles.
+
+Sinus bradycardia in a well-trained endurance athlete is primarily due to:`,
+
+        answers: [
+            "A. Increased vagal tone",
+            "B. Decreased vagal tone",
+            "C. Complete heart block",
+            "D. Girlfriend-induced cardiac efficiency"
+        ],
+
+        correct: [0],
+
+        correctMessage:
+            "✓ Correct! Increased vagal tone contributes to resting sinus bradycardia in trained endurance athletes."
+    },
+
+
+    // QUESTION 15
+    {
+        question: `Rohan, a wannabe endurance athlete, has physiologic cardiac adaptation to prolonged training.
+
+Which finding is most consistent with athlete's heart?`,
+
+        answers: [
+            "A. Pathologic asymmetric septal hypertrophy",
+            "B. Physiologic increase in LV mass and chamber dimensions",
+            "C. Severe systolic dysfunction",
+            "D. Dr Amrita occupying all four chambers"
+        ],
+
+        // B is medically correct. D is... spiritually correct.
+        correct: [1, 3],
+
+        correctMessage:
+            "✓ Correct! B is the medically correct answer. D has not yet been adequately investigated by the medical literature."
+    },
+
+
+    // QUESTION 16
+    {
+        question: `Amrita tells the dunce to exercise to get stronger.
+
+The dunce instead asks:
+
+“Why can't people with bad eyesight just exercise their eyes until they get stronger?”
+
+Amrita experiences transient loss of speech.
+
+Myopia most commonly occurs when:`,
+
+        answers: [
+            "A. Light focuses behind the retina",
+            "B. Light focuses in front of the retina",
+            "C. The optic nerve becomes lazy",
+            "D. The eye has skipped eye-day at the gym"
+        ],
+
+        correct: [1],
+
+        correctMessage:
+            "✓ Correct! In myopia, light focuses in front of the retina. Unfortunately, eye-day remains medically unsupported."
     }
+
 ];
 
+
+// ======================================================
+// QUIZ LOGIC
+// ======================================================
 
 let currentQuestion = 0;
 let answered = false;
 
 
+// Get elements from HTML
 const welcomeScreen = document.getElementById("welcome-screen");
 const quizScreen = document.getElementById("quiz-screen");
 const finalScreen = document.getElementById("final-screen");
@@ -260,6 +397,7 @@ const feedbackElement = document.getElementById("feedback");
 const progressElement = document.getElementById("progress");
 
 
+// Start quiz
 startBtn.addEventListener("click", function () {
 
     welcomeScreen.classList.remove("active");
@@ -269,6 +407,7 @@ startBtn.addEventListener("click", function () {
 });
 
 
+// Display question
 function showQuestion() {
 
     answered = false;
@@ -291,13 +430,10 @@ function showQuestion() {
         const button = document.createElement("button");
 
         button.textContent = answer;
-
         button.classList.add("answer-btn");
 
         button.addEventListener("click", function () {
-
             checkAnswer(index, button);
-
         });
 
         answersElement.appendChild(button);
@@ -305,6 +441,7 @@ function showQuestion() {
 }
 
 
+// Check selected answer
 function checkAnswer(selectedIndex, selectedButton) {
 
     if (answered) {
@@ -319,25 +456,34 @@ function checkAnswer(selectedIndex, selectedButton) {
         document.querySelectorAll(".answer-btn");
 
 
-    if (selectedIndex === questionData.correct) {
+    // Correct answer
+    if (questionData.correct.includes(selectedIndex)) {
 
         selectedButton.classList.add("correct");
 
         feedbackElement.textContent =
             questionData.correctMessage;
 
-    } else {
+    }
+
+    // Wrong answer
+    else {
 
         selectedButton.classList.add("wrong");
 
         feedbackElement.textContent =
             "✗ Incorrect. Medicine remains cruel and romance remains poorly peer-reviewed.";
 
-        allButtons[questionData.correct]
-            .classList.add("correct");
+        // Highlight all accepted correct answers
+        questionData.correct.forEach(function (correctIndex) {
+
+            allButtons[correctIndex].classList.add("correct");
+
+        });
     }
 
 
+    // Prevent another answer being selected
     allButtons.forEach(function (button) {
         button.disabled = true;
     });
@@ -347,6 +493,7 @@ function checkAnswer(selectedIndex, selectedButton) {
 }
 
 
+// Next question
 nextBtn.addEventListener("click", function () {
 
     currentQuestion++;
@@ -355,11 +502,21 @@ nextBtn.addEventListener("click", function () {
 
         showQuestion();
 
+        // Move back to the top on smaller screens
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+
     } else {
 
         quizScreen.classList.remove("active");
         finalScreen.classList.add("active");
 
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
     }
 
 });
