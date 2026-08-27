@@ -1,6 +1,13 @@
+// ======================================================
+// ROHAN'S LAST-MINUTE NEET PG REVISION CAPSULE
+// ======================================================
+
 const questions = [
 
+    // ==================================================
     // QUESTION 1
+    // ==================================================
+
     {
         question: `I tell Dr Amrita:
 
@@ -20,17 +27,20 @@ Which muscle causes pupillary dilation?`,
         correct: [1],
 
         correctMessage:
-            "✓ Correct! Dilator pupillae. Sympathetic stimulation wins again."
+            "Dilator pupillae. Sympathetic stimulation wins again."
     },
 
 
+    // ==================================================
     // QUESTION 2
+    // ==================================================
+
     {
         question: `I tell Dr Amrita:
 
 “You take my breath away.”
 
-She becomes concerned, obtains an ABG, and discovers a PaCO₂ of 29 mmHg after I hyperventilate during an argument.
+She becomes concerned, obtains an ABG, and discovers PaCO₂ of 29 mmHg after I hyperventilate during an argument.
 
 Which disturbance is most likely?`,
 
@@ -44,11 +54,14 @@ Which disturbance is most likely?`,
         correct: [1],
 
         correctMessage:
-            "✓ Correct! Hyperventilation decreases PaCO₂. Romance has once again become an ABG question."
+            "Hyperventilation decreases PaCO₂, producing respiratory alkalosis. Romance has once again become an ABG question."
     },
 
 
+    // ==================================================
     // QUESTION 3
+    // ==================================================
+
     {
         question: `A medical student says:
 
@@ -66,11 +79,14 @@ Propranolol acts primarily as:`,
         correct: [1],
 
         correctMessage:
-            "✓ Correct! Propranolol blocks both β1 and β2 receptors."
+            "Propranolol is a nonselective β antagonist and blocks both β1 and β2 receptors."
     },
 
 
+    // ==================================================
     // QUESTION 4
+    // ==================================================
+
     {
         question: `Rohan confesses to Amrita:
 
@@ -88,11 +104,14 @@ Adult hemoglobin A consists of:`,
         correct: [0],
 
         correctMessage:
-            "✓ Correct! Adult hemoglobin A is α₂β₂. Four chains, considerably fewer emotional complications."
+            "Adult hemoglobin A is α₂β₂. Four chains, considerably fewer emotional complications."
     },
 
 
+    // ==================================================
     // QUESTION 5
+    // ==================================================
+
     {
         question: `Rohan remembers the Taylor Swift song Amrita sang for him and tells her:
 
@@ -110,11 +129,14 @@ Viruses require host cells primarily because they:`,
         correct: [0],
 
         correctMessage:
-            "✓ Correct! Viruses depend on host-cell machinery for replication."
+            "Viruses lack the independent cellular machinery necessary for replication and therefore depend on host cells."
     },
 
 
+    // ==================================================
     // QUESTION 6
+    // ==================================================
+
     {
         question: `Rohan develops periumbilical pain that later migrates to the right lower quadrant while on a first date with Amrita.
 
@@ -132,11 +154,14 @@ Which diagnosis is most likely?`,
         correct: [0],
 
         correctMessage:
-            "✓ Correct! Migratory periumbilical-to-RLQ pain is classic acute appendicitis."
+            "Migratory periumbilical-to-right-lower-quadrant pain is classic for acute appendicitis."
     },
 
 
+    // ==================================================
     // QUESTION 7
+    // ==================================================
+
     {
         question: `1990s. Dr Satpal tells Dr Lovely:
 
@@ -154,11 +179,14 @@ After injection into a peripheral vein, contrast first enters which cardiac cham
         correct: [2],
 
         correctMessage:
-            "✓ Correct! Peripheral venous blood returns first to the right atrium."
+            "Peripheral venous blood returns through the venae cavae and reaches the right atrium first."
     },
 
 
+    // ==================================================
     // QUESTION 8
+    // ==================================================
+
     {
         question: `Dr Satpal tells Dr Lovely:
 
@@ -176,11 +204,14 @@ During a contrast-enhanced CT following peripheral IV injection, contrast reache
         correct: [2],
 
         correctMessage:
-            "✓ Correct! Right atrium. Apparently even romance must obey venous return."
+            "Right atrium. Apparently even romance must obey venous return."
     },
 
 
+    // ==================================================
     // QUESTION 9
+    // ==================================================
+
     {
         question: `Dr PK tells Dr Ananya:
 
@@ -198,11 +229,14 @@ Which bedside assessment is commonly used to help predict difficult intubation?`
         correct: [0],
 
         correctMessage:
-            "✓ Correct! Mallampati classification. Difficult airway: assessed. Difficult conversation: prognosis uncertain."
+            "Mallampati classification helps assess the airway for potentially difficult intubation. Difficult conversation remains considerably harder to grade."
     },
 
 
+    // ==================================================
     // QUESTION 10
+    // ==================================================
+
     {
         question: `Dr PK tells Dr Ananya:
 
@@ -220,11 +254,14 @@ Propofol primarily enhances activity at which receptor?`,
         correct: [1],
 
         correctMessage:
-            "✓ Correct! Propofol primarily potentiates GABA-A receptor activity."
+            "Propofol primarily potentiates inhibitory neurotransmission through GABA-A receptors."
     },
 
 
+    // ==================================================
     // QUESTION 11
+    // ==================================================
+
     {
         question: `1990s. After a significant period of courtship, Dr Satpal tells Dr Lovely:
 
@@ -246,11 +283,14 @@ Simple fluid on a conventional T2-weighted MRI typically appears:`,
         correct: [1],
 
         correctMessage:
-            "✓ Correct! Simple fluid is typically bright on T2-weighted MRI."
+            "Simple fluid is typically bright on conventional T2-weighted MRI."
     },
 
 
+    // ==================================================
     // QUESTION 12
+    // ==================================================
+
     {
         question: `After an argument between Amrita and Rohan:
 
@@ -272,11 +312,14 @@ Takotsubo cardiomyopathy classically demonstrates:`,
         correct: [0],
 
         correctMessage:
-            "✓ Correct! Takotsubo cardiomyopathy classically demonstrates apical ballooning."
+            "Takotsubo cardiomyopathy classically demonstrates transient apical ballooning."
     },
 
 
+    // ==================================================
     // QUESTION 13
+    // ==================================================
+
     {
         question: `Rohan: “You're constantly on my mind.”
 
@@ -284,7 +327,7 @@ Amrita: “Obsessive thoughts?”
 
 Rohan: “ROMANCE.”
 
-Which brain structure plays a major role in the formation of new declarative memories?`,
+Which brain structure plays a major role in formation of new declarative memories?`,
 
         answers: [
             "A. Hippocampus",
@@ -296,11 +339,14 @@ Which brain structure plays a major role in the formation of new declarative mem
         correct: [0],
 
         correctMessage:
-            "✓ Correct! The hippocampus plays a major role in the formation of new declarative memories."
+            "The hippocampus plays a major role in the formation of new declarative memories."
     },
 
 
+    // ==================================================
     // QUESTION 14
+    // ==================================================
+
     {
         question: `Amrita is auscultating Rohan.
 
@@ -322,11 +368,14 @@ Sinus bradycardia in a well-trained endurance athlete is primarily due to:`,
         correct: [0],
 
         correctMessage:
-            "✓ Correct! Increased vagal tone contributes to resting sinus bradycardia in trained endurance athletes."
+            "Increased vagal tone is an important contributor to resting sinus bradycardia in trained endurance athletes."
     },
 
 
+    // ==================================================
     // QUESTION 15
+    // ==================================================
+
     {
         question: `Rohan, a wannabe endurance athlete, has physiologic cardiac adaptation to prolonged training.
 
@@ -341,12 +390,22 @@ Which finding is most consistent with athlete's heart?`,
 
         correct: [1, 3],
 
+        medicalCorrect: [1],
+
+        jokeCorrect: [3],
+
         correctMessage:
-            "✓ Correct! B is the medically correct answer. D has not yet been adequately investigated by the medical literature."
+            "Physiologic increases in LV mass and chamber dimensions can occur with athletic training.",
+
+        jokeMessage:
+            "Rohan-correct. The medical answer is B. Dr Amrita occupying all four chambers remains unsupported by conventional echocardiography."
     },
 
 
+    // ==================================================
     // QUESTION 16
+    // ==================================================
+
     {
         question: `Amrita tells the dunce to exercise to get stronger.
 
@@ -368,11 +427,14 @@ Myopia most commonly occurs when:`,
         correct: [1],
 
         correctMessage:
-            "✓ Correct! In myopia, light focuses in front of the retina. Unfortunately, eye-day remains medically unsupported."
+            "In myopia, parallel light rays are focused in front of the retina when accommodation is relaxed. Eye-day remains medically unsupported."
     },
 
 
+    // ==================================================
     // QUESTION 17
+    // ==================================================
+
     {
         question: `A singer notices difficulty reaching high notes following neck surgery. Her speaking voice is relatively preserved.
 
@@ -389,11 +451,14 @@ Injury to which nerve is most likely?`,
         correct: [1],
 
         correctMessage:
-            "✓ Correct! The external branch of the superior laryngeal nerve innervates the cricothyroid muscle, which tenses and elongates the vocal folds to increase pitch. Particularly important in singers."
+            "The external branch of the superior laryngeal nerve supplies the cricothyroid, which tenses and elongates the vocal folds to increase pitch."
     },
 
 
+    // ==================================================
     // QUESTION 18
+    // ==================================================
+
     {
         question: `A 27-year-old man asks his physician girlfriend for consent to give her a hickey on the lateral aspect of her neck. She agrees.
 
@@ -412,11 +477,14 @@ Which mechanism most likely explains this finding?`,
         correct: [0],
 
         correctMessage:
-            "✓ Correct! A hickey is essentially traumatic purpura caused by rupture of superficial capillaries with extravasation of erythrocytes into the surrounding tissue."
+            "A hickey is traumatic purpura caused by rupture of superficial capillaries and extravasation of erythrocytes into surrounding tissue."
     },
 
 
+    // ==================================================
     // QUESTION 19
+    // ==================================================
+
     {
         question: `A 27-year-old man notices that his heart rate increases from 58/min to 105/min when his girlfriend unexpectedly walks into the room wearing a dress he particularly likes.
 
@@ -435,13 +503,16 @@ Which mechanism most likely explains this response?`,
         correct: [1],
 
         correctMessage:
-            "✓ Correct! β₁-adrenergic stimulation of the SA node increases heart rate. Option E remains clinically plausible but regrettably absent from standard physiology textbooks."
+            "β₁-adrenergic stimulation of the SA node increases heart rate. Option E remains clinically plausible but regrettably absent from standard physiology textbooks."
     },
 
 
+    // ==================================================
     // QUESTION 20
+    // ==================================================
+
     {
-        question: `Amrita sings to Rohan, Taylor Swift's WISH LIST while playing guitar.
+        question: `A man's girlfriend sings to him while playing guitar.
 
 He experiences goosebumps during a particularly emotional section despite normal room temperature.
 
@@ -458,11 +529,14 @@ Goosebumps result from contraction of:`,
         correct: [0],
 
         correctMessage:
-            "✓ Correct! Goosebumps result from sympathetic contraction of smooth arrector pili muscles attached to hair follicles."
+            "Goosebumps result from sympathetic contraction of smooth arrector pili muscles attached to hair follicles."
     },
 
 
+    // ==================================================
     // QUESTION 21
+    // ==================================================
+
     {
         question: `A 27-year-old man is discussing an interpersonal conflict during a psychiatric assessment.
 
@@ -483,7 +557,534 @@ When assessing the moral culpability of his actions, which factor is most import
         correct: [0],
 
         correctMessage:
-            "✓ Correct! Intent is important when distinguishing poor judgment or omission from conduct deliberately undertaken to exploit or harm another person. Consequences still matter, but they do not alone establish malicious intent."
+            "Intent is important when distinguishing poor judgment from conduct deliberately undertaken to exploit or harm. Consequences still matter, but do not alone establish malicious intent."
+    },
+
+
+    // ==================================================
+    // QUESTION 22
+    // ==================================================
+
+    {
+        question: `A 25-year-old recreational tennis player develops lateral elbow pain that worsens during repeated backhand strokes.
+
+Examination shows tenderness over the lateral epicondyle and pain with resisted wrist extension.
+
+Which tendon is most commonly involved?`,
+
+        answers: [
+            "A. Flexor carpi radialis",
+            "B. Extensor carpi radialis brevis",
+            "C. Palmaris longus",
+            "D. Flexor carpi ulnaris",
+            "E. The tendon responsible for returning an ex's emotional unforced errors"
+        ],
+
+        correct: [1],
+
+        correctMessage:
+            "Extensor carpi radialis brevis is commonly implicated in lateral epicondylitis. Emotional unforced errors remain outside the present scope of orthopaedics."
+    },
+
+
+    // ==================================================
+    // QUESTION 23
+    // ==================================================
+
+    {
+        question: `A woman playing a long tennis match develops an increased heart rate, increased systolic blood pressure, and increased blood flow to exercising skeletal muscle.
+
+Which local metabolite contributes to arteriolar dilation in active muscle?`,
+
+        answers: [
+            "A. Endothelin",
+            "B. Angiotensin II",
+            "C. Adenosine",
+            "D. Vasopressin",
+            "E. Compliments shouted enthusiastically from courtside"
+        ],
+
+        correct: [2],
+
+        correctMessage:
+            "Adenosine is one of several local metabolic factors contributing to arteriolar dilation in active skeletal muscle."
+    },
+
+
+    // ==================================================
+    // QUESTION 24
+    // ==================================================
+
+    {
+        question: `A woman accidentally gets cosmetic material into her eye. She immediately develops tearing and blinking.
+
+The afferent limb of the corneal reflex is carried by:`,
+
+        answers: [
+            "A. CN II",
+            "B. CN III",
+            "C. CN V1",
+            "D. CN VII",
+            "E. The cranial nerve responsible for regretting waterproof mascara"
+        ],
+
+        correct: [2],
+
+        correctMessage:
+            "The afferent limb of the corneal reflex is carried by the ophthalmic division of the trigeminal nerve, CN V1. The efferent limb is CN VII."
+    },
+
+
+    // ==================================================
+    // QUESTION 25
+    // ==================================================
+
+    {
+        question: `A woman regularly wears high-heeled shoes.
+
+Compared with standing barefoot, this position chronically places which muscle-tendon unit in a relatively shortened position?`,
+
+        answers: [
+            "A. Tibialis anterior",
+            "B. Gastrocnemius-soleus complex",
+            "C. Hamstrings exclusively",
+            "D. Quadriceps exclusively",
+            "E. Her boyfriend's attention span whenever she walks past"
+        ],
+
+        correct: [1],
+
+        correctMessage:
+            "High heels maintain the ankle in plantarflexion, placing the gastrocnemius-soleus/Achilles unit in a relatively shortened position."
+    },
+
+
+    // ==================================================
+    // QUESTION 26
+    // ==================================================
+
+    {
+        question: `A singer moves from a low note to a substantially higher note.
+
+Which muscle is particularly important for increasing vocal-fold tension?`,
+
+        answers: [
+            "A. Posterior cricoarytenoid",
+            "B. Cricothyroid",
+            "C. Thyroarytenoid exclusively",
+            "D. Lateral cricoarytenoid",
+            "E. Musculus Ariana Grande"
+        ],
+
+        correct: [1],
+
+        correctMessage:
+            "The cricothyroid muscle tenses and elongates the vocal folds, helping increase pitch."
+    },
+
+
+    // ==================================================
+    // QUESTION 27
+    // ==================================================
+
+    {
+        question: `Rohan presents because his Amrita is “dangerously sweet.”
+
+His physician, Dr Sudarshan, is regrettably forced to translate this into actual medicine and suspects diabetes mellitus.
+
+Which HbA1c value meets the diagnostic threshold for diabetes in an appropriate clinical setting?`,
+
+        answers: [
+            "A. 5.2%",
+            "B. 5.6%",
+            "C. 5.9%",
+            "D. ≥6.5%",
+            "E. Direct measurement of Amrita's sweetness"
+        ],
+
+        correct: [3, 4],
+
+        medicalCorrect: [3],
+
+        jokeCorrect: [4],
+
+        correctMessage:
+            "HbA1c ≥6.5% meets the diagnostic threshold for diabetes when appropriate diagnostic criteria are satisfied.",
+
+        jokeMessage:
+            "Rohan-correct. The medical answer is D: HbA1c ≥6.5%. Direct measurement of Amrita's sweetness has not yet been standardised."
+    },
+
+
+    // ==================================================
+    // QUESTION 28
+    // ==================================================
+
+    {
+        question: `Rohan presents with abdominal pain, vomiting, dehydration, and deep rapid breathing. This is after an interaction with Amrita.
+
+Laboratory studies show glucose 410 mg/dL, bicarbonate 10 mEq/L, and elevated serum ketones.
+
+His respiratory pattern is best described as:`,
+
+        answers: [
+            "A. Cheyne-Stokes respiration",
+            "B. Biot respiration",
+            "C. Kussmaul respiration",
+            "D. Apneustic breathing",
+            "E. Heavy sighing after Amrita says “we need to talk”"
+        ],
+
+        correct: [2, 4],
+
+        medicalCorrect: [2],
+
+        jokeCorrect: [4],
+
+        correctMessage:
+            "Kussmaul respiration is deep, rapid breathing associated with severe metabolic acidosis, classically seen in DKA.",
+
+        jokeMessage:
+            "Rohan-correct. The medical answer is C: Kussmaul respiration. Heavy sighing after “we need to talk” has yet to enter the respiratory classifications."
+    },
+
+
+    // ==================================================
+    // QUESTION 29
+    // ==================================================
+
+    {
+        question: `Rohan tells his physician:
+
+“Doctor, I think Amrita gave me diabetes because she's simply too sweet.”
+
+Which response is most medically accurate?`,
+
+        answers: [
+            "A. “Correct. Romantic sweetness is an established diabetogenic exposure.”",
+            "B. “Only if exposure exceeds 150 Amritas/mL.”",
+            "C. “Diabetes results from abnormalities of insulin secretion/action, not your girlfriend being adorable.”",
+            "D. “You require immediate cessation of Amrita exposure.”",
+            "E. “I am referring both of you to endocrinology because I no longer wish to participate in this conversation.”"
+        ],
+
+        correct: [0, 2],
+
+        medicalCorrect: [2],
+
+        jokeCorrect: [0],
+
+        correctMessage:
+            "Diabetes mellitus results from abnormalities in insulin secretion, insulin action, or both. Girlfriend adorableness is not a recognised diabetogenic exposure.",
+
+        jokeMessage:
+            "Rohan-correct. The actual medical answer is C. Romantic sweetness remains unsupported as a cause of diabetes despite vigorous lobbying."
+    },
+
+
+    // ==================================================
+    // QUESTION 30
+    // ==================================================
+
+    {
+        question: `Rohan dreams about Amrita and wakes up deeply annoyed that his own brain has apparently joined the conspiracy.
+
+Vivid dreaming is most strongly associated with which sleep stage?`,
+
+        answers: [
+            "A. N1",
+            "B. N2",
+            "C. N3",
+            "D. REM",
+            "E. AMR, or Amrita Memory Reactivation sleep"
+        ],
+
+        correct: [3],
+
+        correctMessage:
+            "Vivid dreaming is most strongly associated with REM sleep. AMR remains distressingly common in Rohan but is yet to receive formal recognition by sleep medicine."
+    },
+
+
+    // ==================================================
+    // QUESTION 31
+    // ==================================================
+
+    {
+        question: `Rohan gets a chest X-ray done, which is later examined by the radiologist Dr Satpal in both Amrita's and Rohan's presence.
+
+Radiologist: “What do you see?”
+
+Rohan: “Amrita.”
+
+Radiologist: “On the X-ray.”
+
+Rohan: “Still Amrita.”
+
+Amrita: “Please ignore him, Dad.”
+
+The radiologist points to the prominent lower left contour of the cardiac silhouette.
+
+Which chamber forms this border?`,
+
+        answers: [
+            "A. Right atrium",
+            "B. Right ventricle",
+            "C. Left atrium",
+            "D. Left ventricle",
+            "E. Amrita, because apparently anatomy is now optional"
+        ],
+
+        correct: [3],
+
+        correctMessage:
+            "The left ventricle forms the lower left cardiac border on a frontal chest radiograph. Amrita's contribution remains disputed by conventional radiology."
+    },
+
+
+    // ==================================================
+    // QUESTION 32
+    // ==================================================
+
+    {
+        question: `Rohan tells Amrita:
+
+“My kidneys filter about 180 litres a day, and somehow they still can't filter you out of my thoughts.”
+
+Amrita elects not to address the second half.
+
+Which substance is normally freely filtered at the glomerulus and almost completely reabsorbed in the proximal tubule?`,
+
+        answers: [
+            "A. Albumin",
+            "B. Glucose",
+            "C. Erythrocytes",
+            "D. Immunoglobulin G",
+            "E. Memories of Amrita"
+        ],
+
+        correct: [1],
+
+        correctMessage:
+            "Glucose is freely filtered at the glomerulus and is normally almost completely reabsorbed in the proximal tubule."
+    },
+
+
+    // ==================================================
+    // QUESTION 33
+    // ==================================================
+
+    {
+        question: `Rohan becomes dehydrated after a long run but insists that seeing Amrita has restored him spiritually.
+
+His kidneys remain unconvinced.
+
+Which hormone increases water reabsorption by promoting insertion of aquaporin-2 channels into collecting-duct principal cells?`,
+
+        answers: [
+            "A. Aldosterone",
+            "B. ADH",
+            "C. ANP",
+            "D. Renin",
+            "E. Amrita-derived hydration factor"
+        ],
+
+        correct: [1],
+
+        correctMessage:
+            "ADH acts on V2 receptors and promotes insertion of aquaporin-2 channels into collecting-duct principal cells, increasing water reabsorption."
+    },
+
+
+    // ==================================================
+    // QUESTION 34
+    // ==================================================
+
+    {
+        question: `Rohan tells Amrita:
+
+“You're like bilirubin.”
+
+Amrita looks alarmed.
+
+“Because apparently I can't get you out of my system without conjugating my feelings first.”
+
+Which enzyme conjugates bilirubin in hepatocytes?`,
+
+        answers: [
+            "A. HMG-CoA reductase",
+            "B. UDP-glucuronosyltransferase",
+            "C. Alkaline phosphatase",
+            "D. 5-alpha reductase",
+            "E. UDP-glucuronosyltransferase of unresolved romantic affairs"
+        ],
+
+        correct: [1],
+
+        correctMessage:
+            "UDP-glucuronosyltransferase conjugates bilirubin in hepatocytes, making it more water-soluble for biliary excretion."
+    },
+
+
+    // ==================================================
+    // QUESTION 35
+    // ==================================================
+
+    {
+        question: `Rohan insists his glucosuria results from Amrita being “too sweet.”
+
+Under normal circumstances, most filtered glucose is reabsorbed in which part of the nephron?`,
+
+        answers: [
+            "A. Proximal convoluted tubule",
+            "B. Thin descending limb",
+            "C. Thick ascending limb",
+            "D. Collecting duct",
+            "E. Romantic convoluted tubule"
+        ],
+
+        correct: [0],
+
+        correctMessage:
+            "Filtered glucose is normally reabsorbed in the proximal tubule, predominantly through sodium-glucose cotransport."
+    },
+
+
+    // ==================================================
+    // QUESTION 36
+    // ==================================================
+
+    {
+        question: `Amrita asks Rohan to flex his elbow while she palpates his biceps.
+
+Rohan complies with suspicious enthusiasm.
+
+The biceps brachii is primarily innervated by:`,
+
+        answers: [
+            "A. Radial nerve",
+            "B. Musculocutaneous nerve",
+            "C. Median nerve",
+            "D. Axillary nerve",
+            "E. The nerve activated when one's girlfriend says, “Flex.”"
+        ],
+
+        correct: [1],
+
+        correctMessage:
+            "The biceps brachii is innervated by the musculocutaneous nerve, primarily from C5-C6 roots."
+    },
+
+
+    // ==================================================
+    // QUESTION 37
+    // ==================================================
+
+    {
+        question: `After Amrita says she likes his arms, Rohan performs an unreasonable number of biceps curls the next morning.
+
+Forty-eight hours later, he develops muscle soreness without weakness or swelling.
+
+Which diagnosis is most likely?`,
+
+        answers: [
+            "A. Compartment syndrome",
+            "B. Delayed-onset muscle soreness",
+            "C. Rhabdomyolysis",
+            "D. Muscular dystrophy",
+            "E. Acute Amrita-induced hypertrophy attempt"
+        ],
+
+        correct: [1],
+
+        correctMessage:
+            "Delayed-onset muscle soreness typically develops 24–72 hours after unfamiliar or excessive exercise, particularly eccentric loading."
+    },
+
+
+    // ==================================================
+    // QUESTION 38
+    // ==================================================
+
+    {
+        question: `While playing tennis, Rohan develops pain when initiating shoulder abduction.
+
+Examination suggests a rotator-cuff injury.
+
+Which tendon is most likely affected?`,
+
+        answers: [
+            "A. Teres major",
+            "B. Supraspinatus",
+            "C. Pectoralis major",
+            "D. Latissimus dorsi",
+            "E. Trapezius, which Amrita has specifically requested remain unharmed"
+        ],
+
+        correct: [1],
+
+        correctMessage:
+            "The supraspinatus initiates approximately the first 15° of shoulder abduction and is a commonly injured rotator-cuff tendon."
+    },
+
+
+    // ==================================================
+    // QUESTION 39
+    // ==================================================
+
+    {
+        question: `Amrita unexpectedly compliments Rohan.
+
+He feels a brief “skipped beat.”
+
+ECG demonstrates an isolated premature ventricular complex followed by a compensatory pause.
+
+Why does the subsequent normal beat often feel unusually forceful?`,
+
+        answers: [
+            "A. Reduced ventricular filling",
+            "B. Increased ventricular filling during the compensatory pause",
+            "C. Complete loss of preload",
+            "D. Reduced stroke volume",
+            "E. The myocardium attempting to make the metaphor embarrassingly literal"
+        ],
+
+        correct: [1],
+
+        correctMessage:
+            "The compensatory pause allows increased ventricular filling. Greater end-diastolic volume contributes to a more forceful subsequent contraction through the Frank-Starling mechanism."
+    },
+
+
+    // ==================================================
+    // QUESTION 40
+    // ==================================================
+
+    {
+        question: `Rohan presents with polyuria, polydipsia, and nocturia.
+
+When asked about risk factors, he states:
+
+“Amrita exceptionally sweet. Chronic exposure probably did this.”
+
+His physician, Dr Sudarshan, ignores this contribution to the history.
+
+Fasting plasma glucose is repeatedly elevated.
+
+Why does significant hyperglycemia cause polyuria?`,
+
+        answers: [
+            "A. Suppression of ADH",
+            "B. Osmotic diuresis following glucosuria",
+            "C. Increased aldosterone activity",
+            "D. Reduced renal perfusion",
+            "E. Renal excretion of excess girlfriend-derived sweetness"
+        ],
+
+        correct: [1],
+
+        correctMessage:
+            "Once filtered glucose exceeds tubular reabsorptive capacity, glucose remains within tubular fluid and produces osmotic diuresis, leading to polyuria."
     }
 
 ];
@@ -499,20 +1100,41 @@ let score = 0;
 
 
 // ======================================================
-// HTML ELEMENTS
+// GET HTML ELEMENTS
 // ======================================================
 
-const welcomeScreen = document.getElementById("welcome-screen");
-const quizScreen = document.getElementById("quiz-screen");
-const finalScreen = document.getElementById("final-screen");
+const welcomeScreen =
+    document.getElementById("welcome-screen");
 
-const startBtn = document.getElementById("start-btn");
-const nextBtn = document.getElementById("next-btn");
+const quizScreen =
+    document.getElementById("quiz-screen");
 
-const questionElement = document.getElementById("question");
-const answersElement = document.getElementById("answers");
-const feedbackElement = document.getElementById("feedback");
-const progressElement = document.getElementById("progress");
+const finalScreen =
+    document.getElementById("final-screen");
+
+const startBtn =
+    document.getElementById("start-btn");
+
+const nextBtn =
+    document.getElementById("next-btn");
+
+const questionElement =
+    document.getElementById("question");
+
+const answersElement =
+    document.getElementById("answers");
+
+const feedbackElement =
+    document.getElementById("feedback");
+
+const questionLabel =
+    document.getElementById("question-label");
+
+const progressCount =
+    document.getElementById("progress-count");
+
+const progressBar =
+    document.getElementById("progress-bar");
 
 
 // ======================================================
@@ -522,46 +1144,113 @@ const progressElement = document.getElementById("progress");
 startBtn.addEventListener("click", function () {
 
     welcomeScreen.classList.remove("active");
+
     quizScreen.classList.add("active");
 
     showQuestion();
+
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+
 });
 
 
 // ======================================================
-// DISPLAY QUESTION
+// DISPLAY CURRENT QUESTION
 // ======================================================
 
 function showQuestion() {
 
     answered = false;
 
-    const questionData = questions[currentQuestion];
+    const questionData =
+        questions[currentQuestion];
 
-    questionElement.textContent = questionData.question;
 
-    progressElement.textContent =
-        `Question ${currentQuestion + 1} of ${questions.length}`;
+    // --------------------------------------
+    // QUESTION NUMBER
+    // --------------------------------------
+
+    const displayedNumber =
+        currentQuestion + 1;
+
+    questionLabel.textContent =
+        `Question ${displayedNumber} of ${questions.length}`;
+
+    progressCount.textContent =
+        `${displayedNumber} / ${questions.length}`;
+
+
+    // --------------------------------------
+    // SMOOTH PROGRESS BAR
+    // --------------------------------------
+
+    const progressPercentage =
+        (displayedNumber / questions.length) * 100;
+
+    progressBar.style.width =
+        `${progressPercentage}%`;
+
+
+    // --------------------------------------
+    // QUESTION TEXT
+    // --------------------------------------
+
+    questionElement.textContent =
+        questionData.question;
+
+
+    // --------------------------------------
+    // RESET ANSWERS / FEEDBACK
+    // --------------------------------------
 
     answersElement.innerHTML = "";
-    feedbackElement.textContent = "";
+
+    feedbackElement.innerHTML = "";
+
+    feedbackElement.className = "feedback";
 
     nextBtn.style.display = "none";
 
 
-    questionData.answers.forEach(function (answer, index) {
+    // --------------------------------------
+    // CREATE ANSWER BUTTONS
+    // --------------------------------------
 
-        const button = document.createElement("button");
+    questionData.answers.forEach(
+        function (answer, index) {
 
-        button.textContent = answer;
-        button.classList.add("answer-btn");
+            const button =
+                document.createElement("button");
 
-        button.addEventListener("click", function () {
-            checkAnswer(index, button);
-        });
+            button.textContent =
+                answer;
 
-        answersElement.appendChild(button);
-    });
+            button.classList.add("answer-btn");
+
+
+            button.addEventListener(
+                "click",
+                function () {
+
+                    checkAnswer(
+                        index,
+                        button
+                    );
+
+                }
+            );
+
+
+            answersElement.appendChild(
+                button
+            );
+
+        }
+    );
+
 }
 
 
@@ -569,50 +1258,196 @@ function showQuestion() {
 // CHECK ANSWER
 // ======================================================
 
-function checkAnswer(selectedIndex, selectedButton) {
+function checkAnswer(
+    selectedIndex,
+    selectedButton
+) {
 
     if (answered) {
         return;
     }
 
+
     answered = true;
 
-    const questionData = questions[currentQuestion];
+
+    const questionData =
+        questions[currentQuestion];
 
     const allButtons =
-        document.querySelectorAll(".answer-btn");
+        document.querySelectorAll(
+            ".answer-btn"
+        );
 
 
-    if (questionData.correct.includes(selectedIndex)) {
+    const isAccepted =
+        questionData.correct.includes(
+            selectedIndex
+        );
 
-        selectedButton.classList.add("correct");
+
+    // ==================================================
+    // CORRECT / ACCEPTED ANSWER
+    // ==================================================
+
+    if (isAccepted) {
 
         score++;
 
-        feedbackElement.textContent =
-            questionData.correctMessage;
+        selectedButton.classList.add(
+            "correct"
+        );
 
-    } else {
 
-        selectedButton.classList.add("wrong");
+        // ----------------------------------------------
+        // JOKE-CORRECT ANSWER
+        // ----------------------------------------------
 
-        feedbackElement.textContent =
-            "✗ Incorrect. Medicine remains cruel and romance remains poorly peer-reviewed.";
+        if (
+            questionData.jokeCorrect &&
+            questionData.jokeCorrect.includes(
+                selectedIndex
+            )
+        ) {
 
-        questionData.correct.forEach(function (correctIndex) {
+            feedbackElement.classList.add(
+                "feedback-correct"
+            );
 
-            allButtons[correctIndex].classList.add("correct");
+            feedbackElement.innerHTML = `
+                <div class="feedback-title">
+                    ✓ Rohan-correct
+                </div>
 
-        });
+                <div class="feedback-text">
+                    ${questionData.jokeMessage}
+                </div>
+            `;
+
+        }
+
+
+        // ----------------------------------------------
+        // MEDICALLY CORRECT ANSWER
+        // ----------------------------------------------
+
+        else {
+
+            feedbackElement.classList.add(
+                "feedback-correct"
+            );
+
+            feedbackElement.innerHTML = `
+                <div class="feedback-title">
+                    ✓ Correct!
+                </div>
+
+                <div class="feedback-text">
+                    ${questionData.correctMessage}
+                </div>
+            `;
+
+        }
+
     }
 
 
-    allButtons.forEach(function (button) {
-        button.disabled = true;
-    });
+    // ==================================================
+    // WRONG ANSWER
+    // ==================================================
+
+    else {
+
+        selectedButton.classList.add(
+            "wrong"
+        );
 
 
-    nextBtn.style.display = "inline-block";
+        // Highlight medically correct answer(s)
+        const answersToHighlight =
+            questionData.medicalCorrect ||
+            questionData.correct;
+
+
+        answersToHighlight.forEach(
+            function (correctIndex) {
+
+                allButtons[
+                    correctIndex
+                ].classList.add(
+                    "correct"
+                );
+
+            }
+        );
+
+
+        feedbackElement.classList.add(
+            "feedback-wrong"
+        );
+
+
+        feedbackElement.innerHTML = `
+            <div class="feedback-title">
+                ✕ Not quite
+            </div>
+
+            <div class="feedback-text">
+                ${questionData.correctMessage}
+            </div>
+        `;
+
+    }
+
+
+    // ==================================================
+    // LOCK ANSWERS
+    // ==================================================
+
+    allButtons.forEach(
+        function (button) {
+
+            button.disabled = true;
+
+        }
+    );
+
+
+    // ==================================================
+    // NEXT BUTTON TEXT
+    // ==================================================
+
+    if (
+        currentQuestion ===
+        questions.length - 1
+    ) {
+
+        nextBtn.textContent =
+            "See My Score →";
+
+    }
+
+    else if (
+        currentQuestion ===
+        questions.length - 2
+    ) {
+
+        nextBtn.textContent =
+            "Final Question →";
+
+    }
+
+    else {
+
+        nextBtn.textContent =
+            "Next Question →";
+
+    }
+
+
+    nextBtn.style.display =
+        "inline-flex";
+
 }
 
 
@@ -620,76 +1455,141 @@ function checkAnswer(selectedIndex, selectedButton) {
 // NEXT QUESTION
 // ======================================================
 
-nextBtn.addEventListener("click", function () {
+nextBtn.addEventListener(
+    "click",
+    function () {
 
-    currentQuestion++;
+        currentQuestion++;
 
-    if (currentQuestion < questions.length) {
 
-        showQuestion();
+        if (
+            currentQuestion <
+            questions.length
+        ) {
 
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
+            showQuestion();
 
-    } else {
 
-        showFinalScreen();
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+
+        }
+
+
+        else {
+
+            showFinalScreen();
+
+        }
 
     }
-
-});
+);
 
 
 // ======================================================
-// FINAL SCORE
+// FINAL SCREEN
 // ======================================================
 
 function showFinalScreen() {
 
-    quizScreen.classList.remove("active");
-    finalScreen.classList.add("active");
+    quizScreen.classList.remove(
+        "active"
+    );
 
-    document.getElementById("final-score").textContent =
+    finalScreen.classList.add(
+        "active"
+    );
+
+
+    // --------------------------------------
+    // SCORE
+    // --------------------------------------
+
+    document.getElementById(
+        "final-score"
+    ).textContent =
         `${score} / ${questions.length}`;
 
+
     const percentage =
-        Math.round((score / questions.length) * 100);
+        Math.round(
+            (score / questions.length)
+            * 100
+        );
+
+
+    document.getElementById(
+        "percentage-score"
+    ).textContent =
+        `${percentage}%`;
+
+
+    // --------------------------------------
+    // SCORE MESSAGE
+    // --------------------------------------
 
     let message = "";
+
 
     if (percentage === 100) {
 
         message =
             "Perfect score. Dr Amrita has clinically annihilated Rohan's revision capsule.";
 
-    } else if (percentage >= 80) {
+    }
+
+
+    else if (percentage >= 90) {
+
+        message =
+            "Outstanding. At this point the revision capsule appears to require revision more urgently than you do.";
+
+    }
+
+
+    else if (percentage >= 80) {
 
         message =
             "Excellent. NEET PG appears to be in significantly more danger than you are.";
 
-    } else if (percentage >= 60) {
+    }
+
+
+    else if (percentage >= 60) {
 
         message =
-            "Solid performance. A few neurons briefly went on tea break, but overall prognosis is excellent.";
+            "Solid performance. A few neurons briefly went on tea break, but the overall prognosis is excellent.";
 
-    } else if (percentage >= 40) {
+    }
+
+
+    else if (percentage >= 40) {
 
         message =
             "Respectable. The medical knowledge is there; Rohan's questionable distractors merely caused temporary diagnostic confusion.";
 
-    } else {
+    }
+
+
+    else {
 
         message =
             "Score temporarily withheld from the Medical Council in the interests of national security.";
+
     }
 
-    document.getElementById("score-message").textContent =
+
+    document.getElementById(
+        "score-message"
+    ).textContent =
         message;
+
 
     window.scrollTo({
         top: 0,
         behavior: "smooth"
     });
+
 }
