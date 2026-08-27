@@ -88,7 +88,7 @@ Adult hemoglobin A consists of:`,
         correct: [0],
 
         correctMessage:
-            "✓ Correct! Adult HbA is α₂β₂. Four chains, considerably fewer emotional complications."
+            "✓ Correct! Adult hemoglobin A is α₂β₂. Four chains, considerably fewer emotional complications."
     },
 
 
@@ -339,7 +339,6 @@ Which finding is most consistent with athlete's heart?`,
             "D. Dr Amrita occupying all four chambers"
         ],
 
-        // B is medically correct. D is... spiritually correct.
         correct: [1, 3],
 
         correctMessage:
@@ -370,20 +369,139 @@ Myopia most commonly occurs when:`,
 
         correctMessage:
             "✓ Correct! In myopia, light focuses in front of the retina. Unfortunately, eye-day remains medically unsupported."
+    },
+
+
+    // QUESTION 17
+    {
+        question: `A singer notices difficulty reaching high notes following neck surgery. Her speaking voice is relatively preserved.
+
+Injury to which nerve is most likely?`,
+
+        answers: [
+            "A. Recurrent laryngeal nerve",
+            "B. External branch of the superior laryngeal nerve",
+            "C. Internal branch of the superior laryngeal nerve",
+            "D. Hypoglossal nerve",
+            "E. Boyfriend, after requesting the high note for the seventh time"
+        ],
+
+        correct: [1],
+
+        correctMessage:
+            "✓ Correct! The external branch of the superior laryngeal nerve innervates the cricothyroid muscle, which tenses and elongates the vocal folds to increase pitch. Particularly important in singers."
+    },
+
+
+    // QUESTION 18
+    {
+        question: `A 27-year-old man asks his physician girlfriend for consent to give her a hickey on the lateral aspect of her neck. She agrees.
+
+The following morning, she notices a painless, nonblanching, violaceous discoloration at the site. She has no history of abnormal bleeding, and the remainder of the examination is normal.
+
+Which mechanism most likely explains this finding?`,
+
+        answers: [
+            "A. Extravasation of erythrocytes following rupture of superficial dermal capillaries",
+            "B. Histamine-mediated dilation of intact dermal vessels",
+            "C. Immune complex deposition in small vessels",
+            "D. Platelet destruction due to an acquired autoantibody",
+            "E. Acute depletion of clotting factors secondary to boyfriend activity"
+        ],
+
+        correct: [0],
+
+        correctMessage:
+            "✓ Correct! A hickey is essentially traumatic purpura caused by rupture of superficial capillaries with extravasation of erythrocytes into the surrounding tissue."
+    },
+
+
+    // QUESTION 19
+    {
+        question: `A 27-year-old man notices that his heart rate increases from 58/min to 105/min when his girlfriend unexpectedly walks into the room wearing a dress he particularly likes.
+
+ECG shows sinus rhythm.
+
+Which mechanism most likely explains this response?`,
+
+        answers: [
+            "A. Increased vagal tone",
+            "B. β₁-adrenergic stimulation of the SA node",
+            "C. Complete AV block",
+            "D. Reduced catecholamine release",
+            "E. Acute redistribution of blood flow away from the prefrontal cortex"
+        ],
+
+        correct: [1],
+
+        correctMessage:
+            "✓ Correct! β₁-adrenergic stimulation of the SA node increases heart rate. Option E remains clinically plausible but regrettably absent from standard physiology textbooks."
+    },
+
+
+    // QUESTION 20
+    {
+        question: `A man's girlfriend sings to him while playing guitar.
+
+He experiences goosebumps during a particularly emotional section despite normal room temperature.
+
+Goosebumps result from contraction of:`,
+
+        answers: [
+            "A. Arrector pili muscles",
+            "B. Eccrine glands",
+            "C. Piloerector skeletal muscles",
+            "D. Dermal fibroblasts",
+            "E. Tiny follicular critics expressing musical approval"
+        ],
+
+        correct: [0],
+
+        correctMessage:
+            "✓ Correct! Goosebumps result from sympathetic contraction of smooth arrector pili muscles attached to hair follicles."
+    },
+
+
+    // QUESTION 21
+    {
+        question: `A 27-year-old man is discussing an interpersonal conflict during a psychiatric assessment.
+
+He acknowledges that he failed to disclose important information to his partner early in their relationship because he feared rejection and exercised poor judgment.
+
+He accepts that withholding the information deprived her of the opportunity to make a fully informed decision. There is no evidence that he intended to deceive her for personal gain or cause psychological harm.
+
+When assessing the moral culpability of his actions, which factor is most important in distinguishing an error of judgment from deliberately malicious conduct?`,
+
+        answers: [
+            "A. Intent underlying the behavior",
+            "B. Severity of the resulting emotional distress alone",
+            "C. Presence of remorse immediately after the event",
+            "D. Whether the relationship subsequently ended",
+            "E. Serum concentration of common sense"
+        ],
+
+        correct: [0],
+
+        correctMessage:
+            "✓ Correct! Intent is important when distinguishing poor judgment or omission from conduct deliberately undertaken to exploit or harm another person. Consequences still matter, but they do not alone establish malicious intent."
     }
 
 ];
 
 
 // ======================================================
-// QUIZ LOGIC
+// QUIZ STATE
 // ======================================================
 
 let currentQuestion = 0;
 let answered = false;
+let score = 0;
 
 
-// Get elements from HTML
+// ======================================================
+// HTML ELEMENTS
+// ======================================================
+
 const welcomeScreen = document.getElementById("welcome-screen");
 const quizScreen = document.getElementById("quiz-screen");
 const finalScreen = document.getElementById("final-screen");
@@ -397,7 +515,10 @@ const feedbackElement = document.getElementById("feedback");
 const progressElement = document.getElementById("progress");
 
 
-// Start quiz
+// ======================================================
+// START QUIZ
+// ======================================================
+
 startBtn.addEventListener("click", function () {
 
     welcomeScreen.classList.remove("active");
@@ -407,7 +528,10 @@ startBtn.addEventListener("click", function () {
 });
 
 
-// Display question
+// ======================================================
+// DISPLAY QUESTION
+// ======================================================
+
 function showQuestion() {
 
     answered = false;
@@ -441,7 +565,10 @@ function showQuestion() {
 }
 
 
-// Check selected answer
+// ======================================================
+// CHECK ANSWER
+// ======================================================
+
 function checkAnswer(selectedIndex, selectedButton) {
 
     if (answered) {
@@ -456,25 +583,22 @@ function checkAnswer(selectedIndex, selectedButton) {
         document.querySelectorAll(".answer-btn");
 
 
-    // Correct answer
     if (questionData.correct.includes(selectedIndex)) {
 
         selectedButton.classList.add("correct");
 
+        score++;
+
         feedbackElement.textContent =
             questionData.correctMessage;
 
-    }
-
-    // Wrong answer
-    else {
+    } else {
 
         selectedButton.classList.add("wrong");
 
         feedbackElement.textContent =
             "✗ Incorrect. Medicine remains cruel and romance remains poorly peer-reviewed.";
 
-        // Highlight all accepted correct answers
         questionData.correct.forEach(function (correctIndex) {
 
             allButtons[correctIndex].classList.add("correct");
@@ -483,7 +607,6 @@ function checkAnswer(selectedIndex, selectedButton) {
     }
 
 
-    // Prevent another answer being selected
     allButtons.forEach(function (button) {
         button.disabled = true;
     });
@@ -493,7 +616,10 @@ function checkAnswer(selectedIndex, selectedButton) {
 }
 
 
-// Next question
+// ======================================================
+// NEXT QUESTION
+// ======================================================
+
 nextBtn.addEventListener("click", function () {
 
     currentQuestion++;
@@ -502,7 +628,6 @@ nextBtn.addEventListener("click", function () {
 
         showQuestion();
 
-        // Move back to the top on smaller screens
         window.scrollTo({
             top: 0,
             behavior: "smooth"
@@ -510,13 +635,61 @@ nextBtn.addEventListener("click", function () {
 
     } else {
 
-        quizScreen.classList.remove("active");
-        finalScreen.classList.add("active");
+        showFinalScreen();
 
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
     }
 
 });
+
+
+// ======================================================
+// FINAL SCORE
+// ======================================================
+
+function showFinalScreen() {
+
+    quizScreen.classList.remove("active");
+    finalScreen.classList.add("active");
+
+    document.getElementById("final-score").textContent =
+        `${score} / ${questions.length}`;
+
+    const percentage =
+        Math.round((score / questions.length) * 100);
+
+    let message = "";
+
+    if (percentage === 100) {
+
+        message =
+            "Perfect score. Dr Amrita has clinically annihilated Rohan's revision capsule.";
+
+    } else if (percentage >= 80) {
+
+        message =
+            "Excellent. NEET PG appears to be in significantly more danger than you are.";
+
+    } else if (percentage >= 60) {
+
+        message =
+            "Solid performance. A few neurons briefly went on tea break, but overall prognosis is excellent.";
+
+    } else if (percentage >= 40) {
+
+        message =
+            "Respectable. The medical knowledge is there; Rohan's questionable distractors merely caused temporary diagnostic confusion.";
+
+    } else {
+
+        message =
+            "Score temporarily withheld from the Medical Council in the interests of national security.";
+    }
+
+    document.getElementById("score-message").textContent =
+        message;
+
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
