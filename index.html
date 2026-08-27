@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Best of Luck for NEET PG, Amrita!</title>
+    <meta name="theme-color" content="#fff4f7">
+
+    <title>Rohan's Last-Minute NEET PG Revision Capsule</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,82 +16,175 @@
 
     <main class="container">
 
-        <!-- WELCOME SCREEN -->
-        <section id="welcome-screen" class="screen active">
+        <!-- =========================================
+             WELCOME SCREEN
+        ========================================== -->
 
-            <h1>BEST OF LUCK FOR NEET PG, AMRITA! 🍀</h1>
+        <section id="welcome-screen" class="screen active pink-screen">
 
-            <p>
-                This website is a series of medicine MCQs I've curated for some
-                last-minute revision, easing of nerves, and a lil laugh.
-            </p>
+            <div class="welcome-content">
 
-            <p>
-                Hope you have a fun time solving it. I had a fun time creating this.
-            </p>
+                <div class="small-label">
+                    BEST OF LUCK FOR NEET PG 🍀
+                </div>
 
-            <button id="start-btn">
-                Let's Begin →
-            </button>
+                <h1 class="main-title">
+                    ROHAN'S LAST-MINUTE
+                    <span>NEET PG MCQ REVISION CAPSULE</span>
+                </h1>
 
-        </section>
+                <h2 class="welcome-subtitle">
+                    Curated specially for Dr Amrita!
+                </h2>
 
+                <div class="welcome-divider"></div>
 
-        <!-- QUIZ SCREEN -->
-        <section id="quiz-screen" class="screen">
+                <p>
+                    This website is a series of medicine MCQs I've curated
+                    for some last-minute revision, easing of nerves,
+                    and a lil laugh.
+                </p>
 
-            <div id="progress"></div>
+                <p>
+                    Hope you have a fun time solving it.
+                    I had a fun time creating this.
+                </p>
 
-            <h2 id="question"></h2>
+                <div class="quiz-info">
+                    40 questions • No negative marking • Questionable humour
+                </div>
 
-            <div id="answers"></div>
+                <button id="start-btn" class="primary-btn">
+                    Let's Begin →
+                </button>
 
-            <div id="feedback"></div>
-
-            <button id="next-btn" style="display: none;">
-                Next →
-            </button>
-
-        </section>
-
-
-        <!-- FINAL SCREEN -->
-        <section id="final-screen" class="screen">
-
-            <h1>YOU MADE IT! 🎉</h1>
-
-            <div class="score-card">
-                <h2>Your Score</h2>
-
-                <p id="final-score"></p>
-
-                <p id="score-message"></p>
             </div>
 
-            <div class="final-passage">
+        </section>
 
-                <p>
-                    Amrita, best of luck for NEET PG!
-                </p>
 
-                <p>
-                    I hope you liked solving Rohan's Last-Minute Revision ,MCQ Capsule!
-                </p>
+        <!-- =========================================
+             QUIZ SCREEN
+        ========================================== -->
 
-                <p>
-                    I just want to say that, irrespective of what happens, you are the best!
-                    I know you've given your best and have worked incredibly hard.I am very proud of you. 
-                    And you'll always be my fav doctorni, no matter what ( dont tell this to my mother hehe).
-                    You have got this! 
-                </p>
+        <section id="quiz-screen" class="screen quiz-screen">
 
-                <p>
-                    Best of luck, keep a calm head and bash on regardless!
-                </p>
+            <div class="quiz-header">
 
-                <p class="signature">
-                    Rohan ( always in awe of you)
-                </p>
+                <div class="progress-info">
+
+                    <span id="question-label">
+                        Question 1 of 40
+                    </span>
+
+                    <span id="progress-count">
+                        1 / 40
+                    </span>
+
+                </div>
+
+                <div class="progress-track">
+
+                    <div id="progress-bar"></div>
+
+                </div>
+
+            </div>
+
+
+            <div class="question-card">
+
+                <h2 id="question"></h2>
+
+                <div id="answers"></div>
+
+                <div id="feedback" class="feedback"></div>
+
+                <button
+                    id="next-btn"
+                    class="primary-btn next-btn"
+                    style="display: none;"
+                >
+                    Next Question →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             FINAL SCREEN
+        ========================================== -->
+
+        <section id="final-screen" class="screen pink-screen">
+
+            <div class="final-content">
+
+                <div class="small-label">
+                    REVISION CAPSULE COMPLETE
+                </div>
+
+                <h1 class="final-title">
+                    YOU MADE IT! 🎉
+                </h1>
+
+
+                <!-- SCORECARD -->
+
+                <div class="score-card">
+
+                    <p class="score-label">
+                        YOUR SCORE
+                    </p>
+
+                    <p id="final-score">
+                        0 / 40
+                    </p>
+
+                    <p id="percentage-score"></p>
+
+                    <div class="score-divider"></div>
+
+                    <p id="score-message"></p>
+
+                </div>
+
+
+                <!-- FINAL MESSAGE -->
+
+                <div class="final-message-card">
+
+                    <h2>
+                        Amrita, best of luck for NEET PG!
+                    </h2>
+
+                    <p>
+                        I hope you liked solving Rohan's
+                        Last-Minute Revision Capsule!
+                    </p>
+
+                    <p>
+                        I just want to say that, irrespective of what happens, youre the best. I know you've given your best, prepared dilligently despite your duties as an anat JR
+                        and that you've worked hard. And let there be no shaq that i will always be proud of you.
+                         
+                        You'll always be my fav doctorni, no matter what (dont tell this to my mother hehe).
+          
+                        You totally got this!
+                    </p>
+
+                    <p class="bash-line">
+                        Best of luck, keep a calm head and bash on regardless!
+
+
+                        PS - i truly adore you, dont think this is an attempt to charm you for free consultations for the tachycardias you cause me.
+                    </p>
+
+                    <p class="signature">
+                        Rohan
+                    </p>
+
+                </div>
 
             </div>
 
@@ -97,12 +192,11 @@
 
     </main>
 
+
     <script src="script.js"></script>
 
 </body>
 
 </html>
-
-</body>
 
 </html>
