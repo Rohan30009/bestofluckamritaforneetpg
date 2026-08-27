@@ -441,7 +441,7 @@ Which mechanism most likely explains this response?`,
 
     // QUESTION 20
     {
-        question: `A man's girlfriend sings to him while playing guitar.
+        question: `Amrita sings to Rohan, Taylor Swift's WISH LIST while playing guitar.
 
 He experiences goosebumps during a particularly emotional section despite normal room temperature.
 
