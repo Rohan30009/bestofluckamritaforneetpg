@@ -406,7 +406,7 @@ Injury to which nerve is most likely?`,
 
     // QUESTION 18
     {
-        question: `A 27-year-old man asks his physician girlfriend for consent to give her a hickey on the lateral aspect of her neck. She agrees.
+        question: `A chap asks his physician girlfriend for consent to give her a hickey on the lateral aspect of her neck. She agrees.
 
 The following morning, she notices a painless, nonblanching, violaceous discoloration at the site.
 
@@ -429,7 +429,7 @@ Which mechanism most likely explains this finding?`,
 
     // QUESTION 19
     {
-        question: `A 27-year-old man notices that his heart rate increases from 58/min to 105/min when his girlfriend unexpectedly walks into the room wearing a dress he particularly likes.
+        question: `Rohan notices that his heart rate increases from 58/min to 105/min when Amrita unexpectedly walks into the room wearing a dress he particularly likes.
 
 ECG shows sinus rhythm.
 
@@ -452,9 +452,9 @@ Which mechanism most likely explains this response?`,
 
     // QUESTION 20
     {
-        question: `A man's girlfriend sings to him while playing guitar.
+        question: `Amrita sings to Rohan Taylor Swift's Wishlist while playing guitar.
 
-He experiences goosebumps during a particularly emotional section despite normal room temperature.
+Rohan experiences goosebumps during a particularly emotional section despite normal room temperature.
 
 Goosebumps result from contraction of:`,
 
@@ -475,11 +475,11 @@ Goosebumps result from contraction of:`,
 
     // QUESTION 21
     {
-        question: `A 27-year-old man is discussing an interpersonal conflict during a psychiatric assessment.
+        question: `Ro is discussing an interpersonal conflict during a psychiatric assessment.
 
 He acknowledges that he failed to disclose important information to his partner early in their relationship because he feared rejection and exercised poor judgment.
 
-He accepts that withholding the information deprived her of the opportunity to make a fully informed decision. There is no evidence that he intended to deceive her for personal gain or cause psychological harm.
+He accepts that withholding the information deprived her of the opportunity to make a fully informed decision. As a matter of fact, initially there was an misassumption from a mutual friends side at first, which was played along as a prank until it snowballed. There is no evidence that he intended to deceive her for personal gain or cause psychological harm.
 
 When assessing the moral culpability of his actions, which factor is most important in distinguishing an error of judgment from deliberately malicious conduct?`,
 
