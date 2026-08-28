@@ -160,23 +160,32 @@ After injection into a peripheral vein, contrast first enters which cardiac cham
 
     // QUESTION 8
     {
-        question: `Dr Satpal tells Dr Lovely:
+        // QUESTION 8
+{
+    question: `Rohan undergoes MRI after recurrent headaches. Imaging is normal.
 
-“Are you contrast? Because you went straight to my heart.”
+Dr Satpal shows Amrita the medial temporal lobe and asks which structure is critical for declarative memory consolidation.
 
-During a contrast-enhanced CT following peripheral IV injection, contrast reaches which chamber first?`,
+Which structure is most important?`,
 
-        answers: [
-            "A. Left atrium",
-            "B. Left ventricle",
-            "C. Right atrium",
-            "D. The chamber she has rented in his heart"
-        ],
+    answers: [
+        "A. Caudate nucleus",
+        "B. Hippocampus",
+        "C. Substantia nigra",
+        "D. Medulla",
+        "E. The suspiciously large region apparently occupied by thoughts of Amrita"
+    ],
 
-        correct: [2],
+    correct: [1, 4],
+    medicalCorrect: [1],
+    jokeCorrect: [4],
 
-        correctMessage:
-            "Right atrium. Apparently even romance must obey venous return."
+    correctMessage:
+        "The hippocampus is critical for consolidation of new declarative memories.",
+
+    jokeMessage:
+        "Rohan-correct. The medical answer is B. The suspiciously large region apparently occupied by thoughts of Amrita remains undescribed in standard neuroanatomy."
+
     },
 
 
